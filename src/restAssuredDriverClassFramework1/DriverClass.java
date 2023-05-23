@@ -9,8 +9,7 @@ import commonFunctionPackage.Utility_Common_Function;
 
 public class DriverClass 
 {
-	public static void main(String[] args) throws IOException, ClassNotFoundException, NoSuchMethodException, SecurityException, InstantiationException, 
-	                                                  IllegalAccessException, IllegalArgumentException, InvocationTargetException 
+	public static void main(String[] args) throws IOException, ClassNotFoundException, NoSuchMethodException, SecurityException, InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException 
 	{
 		//Post_TC1.execute();	
 		
