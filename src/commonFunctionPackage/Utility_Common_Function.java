@@ -30,10 +30,13 @@ public class Utility_Common_Function
 	public static ArrayList<String> readDataExcel(String sheetName, String testCaseName ) throws IOException
 	{
 		ArrayList<String> arrayData=new ArrayList<String>();
+		
 		//step 1: create the object of file input stream		
 		FileInputStream fis=new FileInputStream("C:\\Users\\hp\\Desktop\\testing\\rest assured\\Book1.xlsx");
+		
 		//step 2: access the excel file
 		XSSFWorkbook workbook=new XSSFWorkbook(fis);
+		
 		//step 3: access the sheet name
 		int countOfSheet=workbook.getNumberOfSheets();
 				for(int i=0;i<countOfSheet;i++)
@@ -63,7 +66,7 @@ public class Utility_Common_Function
 							}
 				}
 				workbook.close();
-				return arrayData;
+			return arrayData;
 	}
 }
 	
